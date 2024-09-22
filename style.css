@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #212427
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    width: 19%;
+    height: 300px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #212427;
+    position: relative; /* deixar a posição do pai relativa permite que os filhos estejam posicionados em relação a ele*/
+}
+.caixa-filho-cor1, .caixa-filho-cor2, .caixa-filho-cor3 {
+    position: absolute; /* para eu poder controlar a posição exata com o top e o left */
+}
+.caixa-filho-cor1 {
+    background-color: #ED145B;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 0;
+    left: 0; 
+}
+
+.caixa-filho-cor2 {
+    background-color: #63B1BC;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    top: 220px;
+    left: 209px;
+}       
+
+.caixa-filho-cor3 {
+    background-color: #EFB661;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 110px;
+    left: 103px;
+}
+
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
